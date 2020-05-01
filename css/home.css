@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	border:0;
+	padding:0;
+	margin: 0;
+	
+}
+
+header{
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #FFF;
+	box-shadow: gray;
+	border: 2px solid gray;
+	z-index:999;
+	
+}
+
+nav ul {
+	list-style: none;
+	padding-left:0px;	
+}
+nav ul li {
+	display: inline-block;
+	padding: 10px 20px;	
+}
+nav ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    object-fit: cover;
+    height: 830px;
+    margin-top: 60px;
+}
+h2{
+	margin-top:9px;
+	margin-left: 300px;	
+}
+p{
+	margin-left: 300px;
+	margin-right: 300px;
+	text-align: justify;
+}
+#ibagem{
+	margin-right: 850px;
+	width:39%;
+}
+ol {
+    position: absolute;
+    right: 200px;
+    top: 1200px;
+}
+
+ol li {
+    padding-bottom: 20px;
+}
+
+ol li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #e6b800;
+}
+footer p{
+	text-align:center;
+	background-color: #d3d3d3;
+	padding-bottom: 10px;
+	
+}
+/*essa merda ak e o about*/
+
+h2.h2DoAbout{
+	margin-right: 300px;
+	margin-top:200px;
+}
+h3.h3DoAbout{
+	text-align: center;
+}
+p.pDoAbout{
+	text-align: center;
+}
+.jane2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height:50%;
+	object-fit: cover;
+}
+h2.h2_music{
+	margin-left:500px;
+	margin-top:200px;
+}
+form button{
+	background-color:rgb(255, 72, 26);
+}
+.mapaDH{
+	position: absolute;
+	left:1000px;
+	top:150px;	
+}
+div.tracinhoMalandro{
+	width:70%;
+	height:4px;
+	background-color:#a6a6a6;
+	margin-left:260px;
+	margin-right:60px;
+}
